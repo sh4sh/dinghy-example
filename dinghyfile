@@ -1,5 +1,5 @@
 {
-  "application": "dinghy-example",
+  "application": "dinghyexample",
   "globals": {
     "save_app_on_update": true
   },
@@ -32,7 +32,7 @@
   },
   "pipelines": [
     {
-      "application": "dinghy-example",
+      "application": "dinghyexample",
       "name": "my-pipeline-name",
       "stages": [
         {
