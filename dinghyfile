@@ -1,0 +1,52 @@
+{
+    "application": "testingdinghy",
+    "pipelines": [
+      {
+        "application": "testingdinghy",
+        "keepWaitingPipelines": false,
+        "name": "bakeAndDeployAMI",
+        "stages": [
+          {
+            "name": "Deploy",
+            "type": "deploy",
+            "refId": "1",
+            "clusters": [
+              {
+                "account": "support-dev",
+                "application": "testingdinghy",
+                "availabilityZones": {
+                  "us-east-2": [
+                    "us-east-2a",
+                    "us-east-2b",
+                    "us-east-2c"
+                  ]
+                },
+                "capacity": {
+                  "desired": 1,
+                  "max": 1,
+                  "min": 1
+                },
+                "cloudProvider": "aws",
+                "iamRole": "BaseIAMRole",
+                "setLaunchTemplate": true,
+                "instanceType": "t2.nano",
+                "launchTemplateOverridesForInstanceType": [
+                    {
+                      "instanceType": "t2.small",
+                      "weightedCapacity": "1"
+                    },
+                    {
+                      "instanceType": "t3.small",
+                      "weightedCapacity": "1"
+                    }
+                  ],
+                "keyPair": "Support-Test1",
+                "provider": "aws",
+                "subnetType": "deploymentVPC-Public"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
