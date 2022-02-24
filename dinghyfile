@@ -23,7 +23,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "update custom banner text",
+          "text": "12312312431234 custom banner text",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
