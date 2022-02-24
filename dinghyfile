@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "removed github : false block  ",
+          "text": "what if ? ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
