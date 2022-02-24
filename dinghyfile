@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "remove github block but leave slack in ",
+          "text": "removed github : false block  ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
