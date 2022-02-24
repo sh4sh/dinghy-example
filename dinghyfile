@@ -4,6 +4,22 @@
     "save_app_on_update": true
   },
   "spec": {
+    "notifications": {
+      "slack": [
+          {
+              "when": [ "pipeline.complete" ],
+              "address": "spinnaker-notification-test"
+          },
+          {
+              "when": [ "pipeline.failed"],
+              "address": "spinnaker-notification-test"
+          },
+          {
+              "when": ["pipeline.complete", "pipeline.failed"],
+              "address": "spinnaker-notification-test"
+          }
+      ]
+    }
     "appmetadata": {
       "dataSources": {
         "enabled": [
