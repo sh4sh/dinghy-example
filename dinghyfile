@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "blehhhhhhh json",
+          "text": "json json json commas json",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
