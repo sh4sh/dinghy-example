@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "12312312431234 custom banner text",
+          "text": "notifications test custom banner text",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
