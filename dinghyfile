@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "json json json commas json",
+          "text": "parsing error does not compute weeooeeooooeooo ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
