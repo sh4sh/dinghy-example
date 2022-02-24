@@ -23,7 +23,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "boooopp custom banner text",
+          "text": "update custom banner text",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
