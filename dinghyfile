@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "what if ? ",
+          "text": "one last test ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
