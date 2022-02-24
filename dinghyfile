@@ -18,13 +18,12 @@
       },
       "cloudProviders": [
         "kubernetes",
-        "aws"
       ],
       "customBanners": [
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "Your custom banner text",
+          "text": "updated custom banner text",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
