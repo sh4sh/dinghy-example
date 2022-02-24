@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "notifications test custom banner text",
+          "text": "blehhhhhhh json",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
