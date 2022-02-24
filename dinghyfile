@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "testing ? ",
+          "text": "slack notifications  ? ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
