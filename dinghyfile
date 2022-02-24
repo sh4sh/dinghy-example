@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "slack notifications  ? ",
+          "text": "turn off PR notifications but enable slack  ? ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
