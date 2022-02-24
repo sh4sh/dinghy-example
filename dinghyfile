@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "parsing error does not compute weeooeeooooeooo ",
+          "text": "parsing error does not compute part 2 ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
