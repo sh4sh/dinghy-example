@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "one last test ",
+          "text": "revert",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
