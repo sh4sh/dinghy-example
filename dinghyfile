@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "parsing error does not compute part 2 ",
+          "text": "edit dinghyfile ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
