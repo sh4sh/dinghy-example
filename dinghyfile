@@ -17,7 +17,7 @@
         ]
       },
       "cloudProviders": [
-        "kubernetes",
+        "kubernetes"
       ],
       "customBanners": [
         {
