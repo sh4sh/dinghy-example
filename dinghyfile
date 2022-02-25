@@ -39,7 +39,7 @@
         {
           "backgroundColor": "var(--color-alert)",
           "enabled": true,
-          "text": "send compact notifications ",
+          "text": "send compact notifications.  ",
           "textColor": "var(--color-text-on-dark)"
         }
       ] 
