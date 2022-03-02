@@ -9,3 +9,4 @@ pipelines:
 {{ local_module "/local_modules/stage.minimal.wait.localmodule" }}
 {{ local_module "/local_modules/stage.minimal.wait.localmodule" "waitname" "localmodule overwrite-name" "waitTime" "100" }}
 {{ module "examples/yaml/modules/stage.minimal.wait.module" "waitname" "global module overwrite-name" "waitTime" "100" }}
+
