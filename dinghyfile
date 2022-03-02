@@ -1,62 +1,11 @@
-{
-  "application": "dinghyexample",
-  "globals": {
-    "save_app_on_update": true
-  },
-  "spec": {
-    "notifications": {
-      "slack": [
-        {
-          "when": [ "pipeline.complete" ],
-          "address": "spinnaker-notification-test"
-        },
-        {
-          "when": [ "pipeline.failed"],
-          "address": "spinnaker-notification-test"
-        },
-        {
-          "when": ["pipeline.complete", "pipeline.failed"],
-          "address": "spinnaker-notification-test"
-        }
-      ]
-    },
-    "appmetadata": {
-      "dataSources": {
-        "enabled": [
-          "securityGroups",
-          "loadBalancers",
-          "executions",
-          "serverGroups"
-        ],
-        "disabled": [
-          "canaryConfigs"
-        ]
-      },
-      "cloudProviders": [
-        "kubernetes"
-      ],
-      "customBanners": [
-        {
-          "backgroundColor": "var(--color-alert)",
-          "enabled": true,
-          "text": "send compact notifications.  ",
-          "textColor": "var(--color-text-on-dark)"
-        }
-      ] 
-    }
-  },
-  "pipelines": [
-    {
-      "application": "dinghyexample",
-      "name": "my-pipeline-name",
-      "stages": [
-        {
-          "name": "one",
-          "type": "wait",
-          "waitTime": 10
-        }
-      ]
-    }
-  ]
-}
- 
+application: localmodules
+globals:
+  waitTime: '42'
+  waitname: default-name
+pipelines:
+- application: localmodules
+  name: Made By Armory Pipeline Templates
+  stages:
+{{ local_module "/local_modules/stage.minimal.wait.localmodule" }}
+{{ local_module "/local_modules/stage.minimal.wait.localmodule" "waitname" "localmodule overwrite-name" "waitTime" "100" }}
+{{ module "stage.minimal.wait.module" "waitname" "global module overwrite-name" "waitTime" "100" }
