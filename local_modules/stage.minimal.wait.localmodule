@@ -1,3 +1,5 @@
-  - name: {{ var "waitname" ?: "Local Module Wait" }}
-    waitTime:  {{ var "waitTime" ?: 10 }}
-    type: wait
+{
+  "name": "{{ var "waitname" ?: "Local Module Wait" }}",
+  "waitTime":  "{{ var "waitTime" ?: 10 }}",
+  "type": "wait"
+}
