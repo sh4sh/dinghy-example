@@ -4,7 +4,7 @@ globals:
   waitname: default-name
 pipelines:
 - application: localmodules
-  name: Made By Armory Pipeline Templates
+  name: Made By Armory Pipeline Templates 001
   stages:
 {{ local_module "/local_modules/stage.minimal.wait.localmodule" }}
 {{ local_module "/local_modules/stage.minimal.wait.localmodule" "waitname" "localmodule overwrite-name" "waitTime" "100" }}
